@@ -1,0 +1,24 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "ejemplos de asincronismo js",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "challenge-callback": "node src/callback-api/index.js",
+    "promise": "node src/promise/index.js",
+    "challenge-promise": "node src/promise-api/index.js",
+    "async": "node src/async/index.js",
+    "challenge-async": "node src/async-api/index.js"
+  },
+  "keywords": [
+    "callback",
+    "promise",
+    "async"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
